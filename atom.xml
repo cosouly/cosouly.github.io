@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cosouly&#39;s Blog</title>
+  
+  <subtitle>像苹果一样的烂掉</subtitle>
+  <link href="//atom.xml" rel="self"/>
+  
+  <link href="http://cosouly.com/"/>
+  <updated>2019-03-14T08:15:46.304Z</updated>
+  <id>http://cosouly.com/</id>
+  
+  <author>
+    <name>Cosouly</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>感知机</title>
+    <link href="http://cosouly.com/2019/03/01/%E6%84%9F%E7%9F%A5%E6%9C%BA/"/>
+    <id>http://cosouly.com/2019/03/01/感知机/</id>
+    <published>2019-03-01T02:22:29.000Z</published>
+    <updated>2019-03-14T08:15:46.304Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="深度学习" scheme="http://cosouly.com/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新的征程</title>
+    <link href="http://cosouly.com/2019/01/22/%E6%96%B0%E7%9A%84%E5%BE%81%E7%A8%8B/"/>
+    <id>http://cosouly.com/2019/01/22/新的征程/</id>
+    <published>2019-01-22T10:01:39.000Z</published>
+    <updated>2019-01-22T10:01:39.970Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

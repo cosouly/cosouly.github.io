@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[感知机]]></title>
+    <url>%2F2019%2F03%2F01%2F%E6%84%9F%E7%9F%A5%E6%9C%BA%2F</url>
+    <content type="text"><![CDATA[当对新的信息进行决策时，人类能够从中识别出相似的信息；而机器学习方法却只能凭借已经见过的数据进行归纳，而且归纳的方式受到很大的限制。 知识点 感知机是具有输入和输出的算法。给定一个输入后，将输出一个既定的值。 感知机将权重和偏置设定为参数。 使用感知机可以表示与门和或门等逻辑电路。 异或门无法通过单层感知机来表示。 使用2层感知机可以表示异或门。 单层感知机只能表示线性空间，而多层感知机可以表示非线性空间。 多层感知机（在理论上）可以表示计算机。 感知机感知机接收多个输入信号，输出一个信号。 有两个输入的感知机： 用数学式来标示： ##感知机的实现 与门123456789101112131415def AND(x1, x2): x = np.array([x1, x2]) w = np.array([0.5, 0.5]) b = -0.7 tmp = np.sum(x * w) + b if tmp &lt;= 0: return 0 else: return 1 print(AND(0, 0))print(AND(0, 1))print(AND(1, 0))print(AND(1, 1)) 与非门123456789101112131415def NAND(x1, x2): x = np.array([x1, x2]) w = np.array([-0.5, -0.5]) b = 0.7 tmp = np.sum(x * w) + b if tmp &lt;= 0: return 0 else: return 1 print(NAND(0, 0))print(NAND(0, 1))print(NAND(1, 0))print(NAND(1, 1)) 或门123456789101112131415def OR(x1, x2): x = np.array([x1, x2]) w = np.array([0.5, 0.5]) b = -0.2 tmp = np.sum(x * w) + b if tmp &lt;= 0: return 0 else: return 1print(OR(0, 0))print(OR(0, 1))print(OR(1, 0))print(OR(1, 1)) 异或门123456789def XOR(x1, x2): s1 = OR(x1, x2) s2 = NAND(x1, x2) return AND(s1, s2)print(XOR(0, 0))print(XOR(0, 1))print(XOR(1, 0))print(XOR(1, 1))]]></content>
+      <tags>
+        <tag>深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[新的征程]]></title>
+    <url>%2F2019%2F01%2F22%2F%E6%96%B0%E7%9A%84%E5%BE%81%E7%A8%8B%2F</url>
+    <content type="text"></content>
+  </entry>
+</search>
